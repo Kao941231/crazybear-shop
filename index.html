@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Crazy Bear 商城</title>
+  <meta name="description" content="Crazy Bear 商城｜FiveM 客製化商品、車輛、武器、MLO、插件與技術支援" />
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="./">
+      <img src="assets/img/logo.svg" alt="Crazy Bear" class="brand__logo" />
+      <div class="brand__text">
+        <div class="brand__title">Crazy Bear</div>
+        <div class="brand__sub">商城｜FiveM 客製化與數位商品</div>
+      </div>
+    </a>
+
+    <nav class="nav">
+      <a href="#services">服務</a>
+      <a href="#catalog">商品</a>
+      <a href="#gifts">好禮</a>
+      <a href="#discord">Discord</a>
+      <a href="./terms.html" class="chip">購買須知</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="開啟選單">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <aside class="mobile-drawer" id="drawer" aria-hidden="true">
+    <div class="drawer__panel">
+      <div class="drawer__head">
+        <div class="drawer__title">選單</div>
+        <button class="drawer__close" id="drawerClose" aria-label="關閉">✕</button>
+      </div>
+      <a href="#services" class="drawer__link">商城服務</a>
+      <a href="#catalog" class="drawer__link">商品分類</a>
+      <a href="#gifts" class="drawer__link">好禮贈送</a>
+      <a href="#discord" class="drawer__link">加入 Discord</a>
+      <a href="./terms.html" class="drawer__link">免責聲明與購買須知</a>
+    </div>
+  </aside>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero__left">
+        <div class="pill">
+          <span class="dot"></span>
+          <span>持續接洽客製化訂單</span>
+        </div>
+
+        <h1>Crazy Bear 商城</h1>
+        <p class="lead">
+          提供 FiveM 客製化商品、車輛、武器、Maps & MLO、插件與技術支援。
+          你提需求，我們協助你做出「更像你伺服器」的內容。
+        </p>
+
+        <div class="cta">
+          <a class="btn btn--primary" href="#catalog">查看商品</a>
+          <a class="btn btn--ghost" id="discordCta" href=" https://discord.gg/Xjjh3tvmuu" rel="noreferrer">加入 Discord</a>
+          <a class="btn btn--soft" href="./terms.html">購買須知</a>
+        </div>
+
+        <div class="meta">
+          <div class="meta__item">
+            <div class="meta__k">付款方式</div>
+            <div class="meta__v">依照工作人員指示</div>
+          </div>
+          <div class="meta__item">
+            <div class="meta__k">發卡方式</div>
+            <div class="meta__v">人工發貨（依序處理）</div>
+          </div>
+          <div class="meta__item">
+            <div class="meta__k">支援範圍</div>
+            <div class="meta__v">ESX / QB / OX</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__right">
+        <div class="poster">
+          <div class="poster__banner">
+            <img src="assets/img/banner.gif" alt="banner" />
+          </div>
+          <div class="poster__card">
+            <div class="poster__brand">
+              <img src="assets/img/logo.svg" alt="" />
+              <div>
+                <div class="poster__name">Crazy Bear</div>
+                <div class="poster__desc">歡迎加入 Crazy Bear 商城</div>
+              </div>
+            </div>
+
+            <div class="poster__tags">
+              <span class="tag">FiveM 商品</span>
+              <span class="tag">客製化車輛</span>
+              <span class="tag">客製化武器</span>
+              <span class="tag">客製化時裝</span>
+            </div>
+
+            <a class="btn btn--discord" id="discordCardBtn"  href="https://discord.gg/Xjjh3tvmuu" rel="noreferrer">前往伺服器</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section__head">
+        <h2>商城服務項目</h2>
+        <p>服務內容以卡片式呈現，閱讀更舒服。</p>
+      </div>
+
+      <div class="grid grid--3">
+        <article class="card"><div class="card__icon">🧑‍🔧</div><h3>金鑰承租</h3><p>滿足不同服主人數、服飾等需求，提供更彈性的方案。</p></article>
+        <article class="card"><div class="card__icon">💎</div><h3>會員專區</h3><p>付費享有包含取款與特殊商品等內容（依公告為準）。</p></article>
+        <article class="card"><div class="card__icon">🧩</div><h3>插件求助</h3><p>協助你尋找適合的插件，並提供安裝/調整方向。</p></article>
+        <article class="card"><div class="card__icon">🧠</div><h3>技術諮詢</h3><p>有關 FiveM 相關問題可進行詢問（依工單/時段）。</p></article>
+        <article class="card"><div class="card__icon">🧷</div><h3>客製化需求</h3><p>UI/腳本/車輛/武器/MLO 等，提供可落地的製作建議。</p></article>
+        <article class="card"><div class="card__icon">🧾</div><h3>流程透明</h3><p>付款→提供憑證→排程→交付，避免誤會與爭議。</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="catalog">
+      <div class="section__head">
+        <h2>提供多樣化商品</h2>
+        <p>商品從 JSON 載入：要上架/下架只要改資料檔。</p>
+      </div>
+
+      <div class="controls">
+        <div class="search"><input id="searchInput" type="search" placeholder="搜尋商品（例：獨立槍枝 / MLO / 車輛）" /></div>
+        <div class="filters" id="filters"></div>
+      </div>
+
+      <div class="grid grid--products" id="productGrid" aria-live="polite"></div>
+
+      <div class="notice">
+        <div class="notice__title">提醒</div>
+        <div class="notice__body">付款方式與發貨時間以工作人員指示為準；詳細規範請見 <a href="./terms.html">免責聲明與購買須知</a>。</div>
+      </div>
+    </section>
+
+    <section class="section" id="gifts">
+      <div class="section__head">
+        <h2>好禮贈送</h2>
+        <p>客製化獨家商品，等您來訂製。</p>
+      </div>
+
+      <div class="grid grid--2">
+        <div class="callout">
+          <h3>想做「你伺服器專屬」的內容？</h3>
+          <p>我們可以依你需求製作：限定外觀、獨立槍模、專屬車輛、MLO 場景、UI 介面、腳本功能整合。</p>
+          <ul class="bullets">
+            <li>可先提供參考圖 / 需求清單 / 目標框架（ESX/QB/OX）</li>
+            <li>需要與 OX Inventory/illenium-appearance 等整合也可以</li>
+            <li>可協助規劃交付內容與驗收項目</li>
+          </ul>
+          <div class="cta"><a class="btn btn--primary" id="discordGiftBtn"  href="https://discord.gg/Xjjh3tvmuu" rel="noreferrer">到 Discord 詢問報價</a></div>
+        </div>
+
+        <div class="faq">
+          <h3>常見問題</h3>
+          <details open><summary>我可以先看範例或過往作品嗎？</summary><p>可以，Discord 內會有分類與範例展示（依你提供的頻道規劃）。</p></details>
+          <details><summary>商品支援哪些框架？</summary><p>ESX / QB / OX 皆可，會依商品類型與你現有資源評估整合方式。</p></details>
+          <details><summary>交付方式是什麼？</summary><p>通常以資源包/檔案交付，必要時提供安裝說明與基本驗收項目。</p></details>
+          <details><summary>可以退款嗎？</summary><p>依照購買須知：數位內容/已提供服務通常不受理退換（詳見條款頁）。</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="discord">
+      <div class="section__head">
+        <h2>加入 Discord</h2>
+        <p>在 Discord 進行客服、上架、客製化訂單接洽與公告。</p>
+      </div>
+
+      <div class="discord-box">
+        <div class="discord-box__left">
+          <div class="discord-box__title">Crazy Bear Discord</div>
+          <div class="discord-box__desc">進入後可查看：FiveM 商品 / 客製化車輛 / 客製化武器 / 客製化時裝 / 精品車輛。</div>
+
+          <div class="discord-inputs">
+            <label class="field"><span>Discord 邀請連結</span><input id="discordUrl" type="url" placeholder="https://discord.gg/xxxx" /></label>
+            <label class="field"><span>客服聯絡（可選）</span><input id="contactText" type="text" placeholder="例：@CrazyBear 管理 / 票務系統" /></label>
+          </div>
+
+          <div class="cta">
+            <button class="btn btn--primary" id="saveBtn">儲存並更新按鈕</button>
+            <a class="btn btn--ghost" id="goDiscordBtn"  href="https://discord.gg/Xjjh3tvmuu" rel="noreferrer">立即前往</a>
+          </div>
+
+          <div class="hint">✅ 貼上 Discord 連結後按儲存，整站的「加入 Discord」按鈕都會同步更新（存在瀏覽器本機）。</div>
+        </div>
+
+        <div class="discord-box__right">
+          <div class="mini-card">
+            <div class="mini-card__top">
+              <img src="assets/img/logo.svg" alt="" />
+              <div>
+                <div class="mini-card__name">Crazy Bear</div>
+                <div class="mini-card__sub">歡迎加入 Crazy Bear 商城</div>
+              </div>
+            </div>
+            <div class="mini-card__chips">
+              <span class="chip">FiveM 商品</span>
+              <span class="chip">客製化訂單</span>
+              <span class="chip">公告更新</span>
+            </div>
+            <a class="btn btn--discord w-full" id="goDiscordBtn2"  href="https://discord.gg/Xjjh3tvmuu" rel="noreferrer">前往伺服器</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> Crazy Bear 商城</div>
+      <div class="footer__links">
+        <a href="./terms.html">免責聲明與購買須知</a>
+        <span class="sep">•</span>
+        <a href="#services">回到上方</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
